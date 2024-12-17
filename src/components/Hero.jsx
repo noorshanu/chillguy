@@ -20,7 +20,7 @@ function Hero() {
         <img
           src="images/hero4.png"
           alt=""
-          className=" mx-auto h-auto sm:h-[350px] floating"
+          className=" mx-auto h-auto sm:h-[550px] floating"
           data-aos="zoom-in-up"
           data-aos-duration="1500"
         />
