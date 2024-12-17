@@ -17,46 +17,46 @@ function Taxs() {
       className=" container-wrapper bg-[#171c22] border-4  border-[#794432] rounded-3xl box-s2 py-4 px-4 relative z-20 flex flex-col sm:flex-row justify-between gap-4">
         <a
           href="#"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 w-full sm:w-[250px]"
+          className=" block max-w-sm p-6 bg-[#9EB680] border border-gray-200 rounded-lg shadow    w-full sm:w-[250px]"
         >
           <img src="/images/burn.jpg" alt="" className=" mx-auto" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center font-dream ">
            LP Burning
           </h5>
-          <p className="font-normal text-purple-300  text-center">LP LOCKED</p>
+          <p className="font-normal text-white text-center">LP LOCKED</p>
         </a>
 
         <a
           href="#"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 w-full sm:w-[250px]"
+          className="block max-w-sm p-6 bg-[#9EB680] border border-gray-200 rounded-lg shadow    w-full sm:w-[250px]"
         >
           <img src="/images/tax.jpg" alt="" className=" mx-auto" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center font-dream ">
             No Taxes
           </h5>
-          <p className="font-normal text-purple-300 text-center">0% BUY / 0% SELL</p>
+          <p className="font-normal text-white text-center">0% BUY / 0% SELL</p>
         </a>
 
         <a
           href="#"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 w-full sm:w-[250px]"
+          className=" block max-w-sm p-6 bg-[#9EB680] border border-gray-200 rounded-lg shadow    w-full sm:w-[250px]"
         >
           <img src="/images/con.jpg" alt="" className=" mx-auto" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center font-dream ">
             Contract
           </h5>
-          <p className="font-normal text-purple-300 text-center">Mint REVOKED</p>
+          <p className="font-normal text-white text-center">Mint REVOKED</p>
         </a>
 
         <a
           href="#"
-          className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 w-full sm:w-[250px]"
+          className=" block max-w-sm p-6 bg-[#9EB680] border border-gray-200 rounded-lg shadow    w-full sm:w-[250px]"
         >
           <img src="/images/supp.jpg" alt="" className=" mx-auto" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center font-dream ">
          Supply
           </h5>
-          <p className="font-normal text-purple-300 text-center">1 B</p>
+          <p className="font-normal text-white text-center">1 B</p>
         </a>
       </div>
 

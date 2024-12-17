@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +7,10 @@
 @font-face {
   font-family: "dream";
   src: url("/fonts/dela.ttf");
+}
+
+.inconsolata {
+  font-family: "Inconsolata", serif;
 }
 .luck {
   font-family: "Luckiest Guy", cursive;
@@ -64,6 +68,7 @@
   }
   body{
     background-color: #0f131c;
+    font-family: "Inconsolata", serif;
   }
 
   .hero-main{

@@ -15,10 +15,10 @@ function AboutUs() {
             data-aos="zoom-in-left"
             data-aos-duration="1500"
           >
-            <h1 className=" bg-[#794432ce] border-[#cd8854] border-2 rounded-xl p-2 text-4xl font-bold font-dream text-white text-center mb-4">
+            <h1 className=" bg-[#9EB680] border-[#cd8854] border-2 rounded-xl p-2 text-4xl font-bold font-dream text-white text-center mb-4">
               About us
             </h1>
-            <div className="bg-[#794432ce] border-[#cd8854] border-2 rounded-xl p-2 ">
+            <div className="bg-[#9EB680] border-[#cd8854] border-2 rounded-xl p-2 ">
               <p className=" text-lg text-white  py-2">
                 Purple Pepe is the real alpha Pepe on Solana. From humble
                 beginnings to millionaire status with a flashy Lambo, $PUPE
@@ -36,16 +36,29 @@ function AboutUs() {
               <div className=" m-4 mx-auto flex justify-center">
                 <a
                   href="https://www.dextools.io/app/en/solana/pair-explorer/BmJzRiQyEwXB6kPADAc3xUGn68Yu5wkNSmZbjspjAvnS?t=1721393113503"
-                  className=" mx-auto font-dream  text-base text-white bg-[#794432] hover:bg-[#1a4093]
-              flex items-center gap-2 
-              rounded-full py-2 px-6 border-2 border-[#cd8854]  hover:text-[#fff] text-center font-bold
+                  className=" mx-auto font-dream    relative 
+        bg-[#E55D2D] 
+        text-white 
+        font-bold 
+        inline-block 
+        border-4 
+        border-[#1E1E1E] 
+        shadow-[4px_4px_0_0_#1E1E1E]
+        transition-all 
+        duration-200
+        hover:translate-x-[2px]
+        hover:translate-y-[2px]
+        hover:shadow-[2px_2px_0_0_#1E1E1E]
+        active:translate-x-[4px]
+        active:translate-y-[4px]
+        active:shadow-none
+        rounded-md
+        px-4 py-2 text-[18px] sm:text-[18px] w-full text-center font-luck
+        text-[18px] sm:text-[28px]
+               hover:text-[#fff] 
                uppercase"
                 >
-                  <img
-                    src="images/dex.png"
-                    alt=""
-                    className=" w-auto h-[28px]"
-                  />{" "}
+                
                   Buy Now
                 </a>
               </div>

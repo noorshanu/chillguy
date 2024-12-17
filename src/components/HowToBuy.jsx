@@ -32,13 +32,13 @@ function HowToBuy() {
         <div className=" my-4">
  
 
-          <div
+          {/* <div
             className="bg-[#171c22] border-4 border-[#794432]  box-s2 rounded-3xl p-4 w-full "
             data-aos="fade-left"
             data-aos-duration="1500"
           >
             <Slider />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

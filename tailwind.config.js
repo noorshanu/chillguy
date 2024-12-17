@@ -9,6 +9,7 @@ export default {
     fontFamily: {
     dream: "'dream',sans-serif",
     luck:"Luckiest Guy, 'cursive'",
+    inco:"'Inconsolata', serif",
 
   },
     extend: {},

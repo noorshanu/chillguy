@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero-main     ">
       <div className=" container-wrapper pt-[25%] sm:pt-[1%]  overflow-hidden relative">
         <div>
-          <h2 className=" text-center text-white font-bold font-dream text-3xl"   >Just A</h2>
+          <h2 className=" text-center text-white font-bold font-dream text-3xl"   >Just </h2>
       
           <h1 className=" font-luck stroke-black text-white text-center text-[7rem]"    data-aos="zoom-in-up"
           data-aos-duration="1500"> Chill Pou</h1>

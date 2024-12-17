@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowToBuy from "./components/HowToBuy";
 import Navbar from "./components/Navbar";
+import Newbuy from "./components/Newbuy";
 import Taxs from "./components/Taxs";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         {/* <DexMark/> */}
         {/* <ChooseHero /> */}
         <HowToBuy />
+        <Newbuy/>
         <div className="main-bg2 pt-4">
           {/* <Faq /> */}
 
