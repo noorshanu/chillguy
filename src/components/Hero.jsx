@@ -7,14 +7,10 @@ function Hero() {
     <section className="hero-main     ">
       <div className=" container-wrapper pt-[25%] sm:pt-[1%]  overflow-hidden relative">
         <div>
-          <h2 className=" text-center text-white font-bold">Welcome To</h2>
-          <img
-            src="images/hero-txt.png"
-            alt=""
-            className=" mx-auto h-auto sm:h-[200px] w-auto "
-            data-aos="zoom-in-up"
-          data-aos-duration="1500"
-          />
+          <h2 className=" text-center text-white font-bold font-dream text-3xl"   >Just A</h2>
+      
+          <h1 className=" font-luck stroke-black text-white text-center text-[7rem]"    data-aos="zoom-in-up"
+          data-aos-duration="1500"> Chill Pou</h1>
           {/* <a href="/" className="text-sm sm:text-2xl font-bold text-center flex justify-center my-4"> </a> */}
         </div>
         <img
@@ -28,34 +24,34 @@ function Hero() {
         <div className=" relative sm:absolute top-[30%] left-[5%] "  data-aos="zoom-in-right"
           data-aos-duration="1500">
           <div className=" flex flex-row sm:flex-col justify-center items-center gap-4 w-full max-w-[200px] sm:max-w-[250px] mx-auto py-4">
-            <div className=" h-8 w-[1px] bg-white hidden sm:block"></div>
+            <div className=" h-8 w-[1px] bg-[#cd8854] hidden sm:block"></div>
             <a
-              href="https://www.dextools.io/app/en/solana/pair-explorer/BmJzRiQyEwXB6kPADAc3xUGn68Yu5wkNSmZbjspjAvnS?t=1721393113503"
-              className=" mx-auto font-dream box-s2  text-lg text-white bg-[#000000] hover:bg-[#1a4093] rounded-full p-1 px-2 border-2 border-[#8d4df9]  hover:text-[#fff] text-center font-bold uppercase"
+              href="https://www.dextools.io/app/en/solana/pair-explorer/"
+              className=" mx-auto font-dream box-s2  text-lg text-white bg-[#794432] hover:bg-[#794432] rounded-full p-1 px-2 border-2 border-[#cd8854]  hover:text-[#fff] text-center font-bold uppercase"
             >
               {" "}
               <img src="/images/dex.png" alt="" className=" h-[30px] w-auto" />
             </a>
             <a
-              href="https://t.me/PurplePepe_sol"
-              className=" mx-auto font-dream box-s2  text-3xl text-white bg-[#000000] hover:bg-[#1a4093] rounded-full p-1 border-2 border-[#8d4df9]  hover:text-[#fff]  text-center font-bold uppercase"
+              href="https://t.me/"
+              className=" mx-auto font-dream box-s2  text-3xl text-white bg-[#794432] hover:bg-[#1a4093] rounded-full p-1 border-2 border-[#cd8854]  hover:text-[#fff]  text-center font-bold uppercase"
             >
               {" "}
               <BsTelegram />{" "}
             </a>
             <a
-              href="https://x.com/PurplePepe_Sol"
-              className=" mx-auto font-dream box-s2  text-lg text-white bg-[#000000] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#8d4df9]  hover:text-[#fff] text-center font-bold uppercase"
+              href="https://x.com/"
+              className=" mx-auto font-dream box-s2  text-lg text-white bg-[#794432] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#cd8854]  hover:text-[#fff] text-center font-bold uppercase"
             >
               {" "}
               <BsTwitterX />{" "}
             </a>
-            <div className=" h-8 w-[1px] bg-white hidden sm:block"></div>
+            <div className=" h-8 w-[1px] bg-[#cd8854] hidden sm:block"></div>
           </div>
         </div>
 
         <div  data-aos="zoom-in-up"
-          data-aos-duration="1500" className=" flex mt-4 mb-2 items-center justify-center gap-2  relative z-20 py-1 bg-black border-t-2 border-l-2 border-r-2 border-[#8d4df9] rounded-2xl w-full max-w-full sm:max-w-xl px-4 mx-auto">
+          data-aos-duration="1500" className=" flex mt-4 mb-2 items-center justify-center gap-2  relative z-20 py-1 bg-black border-t-2 border-l-2 border-r-2 border-[#cd8854] rounded-2xl w-full max-w-full sm:max-w-xl px-4 mx-auto">
           <CopyAddress />{" "}
           <button className="copy">
             <span

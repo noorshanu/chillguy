@@ -7,14 +7,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" border-b border-[#8d4df9]  py-1  w-full z-40 bg-[#0f131c]">
+    <nav className=" border-b border-[#cd8854]  py-1  w-full z-40 bg-[#0f131c]">
       <div className="max-w-6xl mx-auto  flex justify-between items-center   px-4 py-1 ">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="images/logo.png" className="h-[70px]" alt=" Logo" />
+        <a href="/" className="flex items-center ">
+          {/* <img src="images/logo.png" className="h-[70px]" alt=" Logo" /> */}
 
-          <h1 className="v font-dream text-xl sm:text-3xl font-bold text-white ">$PUPE</h1>
+          <h1 className="v font-luck text-xl sm:text-3xl font-bold text-white mt-2 ">Chill Pou</h1>
         </a>
 
         </div>
@@ -32,8 +32,8 @@ function Navbar() {
         <div className="md:flex items-center">
         <div className=" flex items-center gap-4 text-white  ml-5">
         <a
-                  href="https://x.com/PurplePepe_Sol" rel="noreferrer" target="_blank"
-                  className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+                  href="https://x.com/" rel="noreferrer" target="_blank"
+                  className=" text-xl text-white bg-[#794432] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
                 </a>
@@ -41,8 +41,8 @@ function Navbar() {
            
 
                 <a
-                  href="https://t.me/PurplePepe_sol" target="_blank"  rel="noreferrer"
-                  className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+                  href="https://t.me/P" target="_blank"  rel="noreferrer"
+                  className=" text-xl text-white bg-[#794432] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />
                 </a>
@@ -95,7 +95,7 @@ function Navbar() {
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a
-                  href="https://x.com/PurplePepe_Sol"
+                  href="https://x.com/Purp"
                   className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
@@ -104,7 +104,7 @@ function Navbar() {
            
 
                 <a
-                  href="https://t.me/PurplePepe_sol" target="_blank" rel="noreferrer"
+                  href="https://t.me/Purp" target="_blank" rel="noreferrer"
                   className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />

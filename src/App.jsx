@@ -29,11 +29,11 @@ function App() {
         </div>
         <Taxs />
 
-        <DexMark/>
+        {/* <DexMark/> */}
         {/* <ChooseHero /> */}
         <HowToBuy />
         <div className="main-bg2 pt-4">
-          <Faq />
+          {/* <Faq /> */}
 
           <Footer />
         </div>

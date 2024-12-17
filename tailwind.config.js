@@ -8,6 +8,7 @@ export default {
   theme: {
     fontFamily: {
     dream: "'dream',sans-serif",
+    luck:"Luckiest Guy, 'cursive'",
 
   },
     extend: {},
